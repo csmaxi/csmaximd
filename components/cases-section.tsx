@@ -73,7 +73,7 @@ export function CasesSection() {
             </span>
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            Descubre cómo hemos transformado negocios reales con estrategias digitales efectivas y medibles
+            Descubre cómo transformamos negocios reales con estrategias digitales efectivas y medibles
           </p>
         </div>
 
@@ -123,7 +123,7 @@ export function CasesSection() {
                     </div>
 
                     <blockquote className="border-l-4 border-blue-500 pl-4 mb-4">
-                      <p className="text-slate-300 italic mb-2">"{case_.testimonial}"</p>
+                      <p className="text-slate-300 italic mb-2">&ldquo{case_.testimonial}&rdquo</p>
                       <cite className="text-blue-400 font-semibold">— {case_.author}</cite>
                     </blockquote>
 
